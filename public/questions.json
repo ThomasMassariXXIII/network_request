@@ -1,0 +1,1988 @@
+[
+  {
+    "id": "question_0001",
+    "type": "awareness",
+    "isTutorial": true,
+
+    "text": "Quale delle seguenti attività quotidiane ha il maggiore impatto ambientale in termini di emissioni di CO2?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Usare lo smartphone per un'ora"
+      },
+      {
+        "index": 1,
+        "text": "Acquistare un chilo di carne bovina",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Fare un ciclo di lavatrice a 40°C"
+      },
+      {
+        "index": 3,
+        "text": "Bere acqua in bottiglia di plastica"
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0002",
+    "type": "forecast",
+    "isTutorial": true,
+
+    "text": "Quale percentuale della popolazione mondiale userà energie rinnovabili entro il 2030?",
+    "info": "Considera tutte le forme di energia rinnovabile: solare, eolica, idroelettrica, geotermica e biomasse.\nAttualmente la percentuale si aggira intorno al 29% del consumo globale di energia.",
+
+    "minValueText": "0%",
+    "maxValueText": "100%",
+
+    "insightReward": 15
+  },
+  {
+    "id": "question_0003",
+    "type": "freetime",
+    "isTutorial": true,
+
+    "text": "Come vuoi trascorrere il tuo tempo libero questo weekend?",
+    "info": "Scegli l'attività che preferisci",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Fare volontariato nel quartiere",
+
+        "followerReward": 50,
+        "moneyReward": -20,
+        "partyReward": 10,
+
+        "successProbability": 0.8,
+        "successText": "Hai fatto una grande differenza nel tuo quartiere, la gente ti rispetta!",
+        "failureText": "L'impegno non è stato sufficiente, ma l'intenzione era buona."
+      },
+      {
+        "index": 1,
+        "text": "Lavorare su un progetto personale",
+
+        "followerReward": 20,
+        "moneyReward": 30,
+        "partyReward": -5,
+
+        "successProbability": 0.7,
+        "successText": "Il tuo progetto sta prendendo forma, sei sulla strada giusta!",
+        "failureText": "Il progetto ha avuto alcuni ostacoli, ma hai imparato molto."
+      },
+      {
+        "index": 2,
+        "text": "Rilassarsi e ricaricare le energie",
+
+        "followerReward": 0,
+        "moneyReward": 0,
+        "partyReward": 0,
+
+        "successProbability": 0.95,
+        "successText": "Ti senti completamente rigenerato e pronto per affrontare la settimana!",
+        "failureText": "Non sei riuscito a rilassarti completamente, ma è un inizio."
+      }
+    ],
+
+    "insightReward": 5
+  },
+  {
+    "id": "question_0004",
+    "type": "multiple",
+    "isTutorial": true,
+
+    "text": "Un'azienda ti offre un lavoro ben pagato ma con pratiche eticamente discutibili. Come reagisci?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Accetto il lavoro, ho bisogno di stabilità economica e posso cercare di cambiare le cose dall'interno",
+
+        "followerReward": 10,
+        "moneyReward": 100,
+        "partyReward": -20,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.4,
+        "successText": "Hai guadagnato molto, ma i tuoi valori ne hanno risentito.",
+        "failureText": "Nemmeno il denaro è valso il compromesso morale che hai dovuto fare."
+      },
+      {
+        "index": 1,
+        "text": "Rifiuto categoricamente, non voglio compromettere i miei valori per denaro",
+
+        "followerReward": 80,
+        "moneyReward": -50,
+        "partyReward": 30,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.8,
+        "successText": "La tua integrità ti ha aperto altre porte, hai fatto la scelta giusta!",
+        "failureText": "Hai dovuto affrontare difficoltà finanziarie, ma la tua coscienza è pulita."
+      },
+      {
+        "index": 2,
+        "text": "Chiedo maggiori dettagli sulle pratiche e propongo modifiche prima di decidere",
+
+        "followerReward": 40,
+        "moneyReward": 20,
+        "partyReward": 10,
+
+        "insightRequirement": 100,
+
+        "successProbability": 0.6,
+        "successText": "La tua diplomazia ha portato a cambiamenti reali nell'azienda!",
+        "failureText": "Non siete riusciti a trovare un accordo, ma hai tentato."
+      },
+      {
+        "index": 3,
+        "text": "Espongo pubblicamente le pratiche dell'azienda sui social media",
+
+        "followerReward": 150,
+        "moneyReward": -30,
+        "partyReward": 40,
+
+        "insightRequirement": 50,
+
+        "successProbability": 0.5,
+        "successText": "La tua azione ha costretto l'azienda a una resa dei conti pubblica!",
+        "failureText": "L'azienda ha minimizzato lo scandalo, ma almeno hai provato."
+      }
+    ],
+
+    "insightReward": 20
+  },
+  {
+    "id": "question_0005",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "In quale paese si è verificato il crollo del Rana Plaza nel 2013, tragedia che ha evidenziato le condizioni di lavoro nell'industria tessile?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "India"
+      },
+      {
+        "index": 1,
+        "text": "Bangladesh",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Vietnam"
+      },
+      {
+        "index": 3,
+        "text": "Cambogia"
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0006",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Quale sistema pensionistico è attualmente in vigore in Italia per i nuovi lavoratori?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Sistema retributivo"
+      },
+      {
+        "index": 1,
+        "text": "Sistema misto"
+      },
+      {
+        "index": 2,
+        "text": "Sistema contributivo",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Sistema a capitalizzazione"
+      }
+    ],
+
+    "insightReward": 12
+  },
+  {
+    "id": "question_0007",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "In media, quale percentuale del prezzo finale di un prodotto alimentare va direttamente all'agricoltore in Italia?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Circa il 60%"
+      },
+      {
+        "index": 1,
+        "text": "Circa il 40%"
+      },
+      {
+        "index": 2,
+        "text": "Circa il 15-20%",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Circa il 50%"
+      }
+    ],
+
+    "insightReward": 8
+  },
+  {
+    "id": "question_0008",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Come si chiama il regolamento europeo che tutela i dati personali dei cittadini online?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Digital Markets Act"
+      },
+      {
+        "index": 1,
+        "text": "GDPR (General Data Protection Regulation)",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Copyright Directive"
+      },
+      {
+        "index": 3,
+        "text": "ePrivacy Regulation"
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0009",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Quale imposta italiana viene applicata direttamente sullo stipendio dei lavoratori dipendenti?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "IVA"
+      },
+      {
+        "index": 1,
+        "text": "IRPEF",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "IRAP"
+      },
+      {
+        "index": 3,
+        "text": "IMU"
+      }
+    ],
+
+    "insightReward": 15
+  },
+  {
+    "id": "question_0010",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Come si chiama il fenomeno per cui i social media creano una 'bolla' di contenuti che confermano le opinioni dell'utente?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Fake news"
+      },
+      {
+        "index": 1,
+        "text": "Filter bubble",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Clickbait"
+      },
+      {
+        "index": 3,
+        "text": "Social proof"
+      }
+    ],
+
+    "insightReward": 12
+  },
+  {
+    "id": "question_0011",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Quale indicatore viene comunemente utilizzato per misurare la disuguaglianza economica in un paese?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "PIL pro capite"
+      },
+      {
+        "index": 1,
+        "text": "Coefficiente di Gini",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Tasso di inflazione"
+      },
+      {
+        "index": 3,
+        "text": "Indice Big Mac"
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0012",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Quale tra questi è un programma di welfare attualmente attivo in Italia?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Universal Credit"
+      },
+      {
+        "index": 1,
+        "text": "Assegno Unico Universale",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Bürgergeld"
+      },
+      {
+        "index": 3,
+        "text": "Bolsa Família"
+      }
+    ],
+
+    "insightReward": 8
+  },
+  {
+    "id": "question_0013",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale percentuale di giovani italiani tra i 18 e i 35 anni possiederà una casa di proprietà entro il 2035?",
+    "info": "Considera l'andamento dei prezzi immobiliari, i salari medi dei giovani e le politiche di accesso al credito.\nAttualmente circa il 28% dei giovani in questa fascia possiede una casa.",
+
+    "minValueText": "0%",
+    "maxValueText": "100%",
+
+    "insightReward": 18
+  },
+  {
+    "id": "question_0014",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quanti milioni di posti di lavoro in Europa saranno sostituiti dall'intelligenza artificiale entro il 2030?",
+    "info": "Le stime attuali variano molto. Considera sia i lavori completamente automatizzabili che quelli parzialmente impattati.\nAlcuni studi parlano di 75-300 milioni di lavoratori globalmente che dovranno cambiare categoria professionale.",
+
+    "minValueText": "0 milioni",
+    "maxValueText": "50 milioni",
+
+    "insightReward": 20
+  },
+  {
+    "id": "question_0015",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale sarà il tasso di disoccupazione giovanile in Italia nel 2028?",
+    "info": "Il tasso di disoccupazione giovanile (15-24 anni) in Italia attualmente si aggira intorno al 22%.\nConsidera l'evoluzione del mercato del lavoro e le politiche occupazionali.",
+
+    "minValueText": "5%",
+    "maxValueText": "50%",
+
+    "insightReward": 15
+  },
+  {
+    "id": "question_0016",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale percentuale delle aziende Fortune 500 avrà un CEO donna entro il 2030?",
+    "info": "Attualmente circa il 10% delle aziende Fortune 500 ha un CEO donna.\nConsidera i trend di inclusione e le politiche di diversità aziendale.",
+
+    "minValueText": "0%",
+    "maxValueText": "50%",
+
+    "insightReward": 12
+  },
+  {
+    "id": "question_0017",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale sarà il salario minimo orario medio in Europa (in euro) nel 2030?",
+    "info": "Attualmente il salario minimo varia molto tra i paesi UE, da circa 3€ in Bulgaria a oltre 12€ in Lussemburgo.\nLa media ponderata attuale è circa 8€.",
+
+    "minValueText": "5€",
+    "maxValueText": "20€",
+
+    "insightReward": 14
+  },
+  {
+    "id": "question_0018",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale percentuale del PIL mondiale sarà generata dall'economia circolare entro il 2035?",
+    "info": "L'economia circolare include riciclo, riuso, rigenerazione e sharing economy.\nAttualmente si stima che rappresenti circa il 9% dell'economia globale.",
+
+    "minValueText": "0%",
+    "maxValueText": "50%",
+
+    "insightReward": 16
+  },
+  {
+    "id": "question_0019",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quante ore settimanali lavorerà in media un dipendente europeo nel 2035?",
+    "info": "Attualmente la media europea è di circa 37 ore settimanali.\nAlcuni paesi stanno sperimentando la settimana lavorativa di 4 giorni.",
+
+    "minValueText": "20 ore",
+    "maxValueText": "50 ore",
+
+    "insightReward": 12
+  },
+  {
+    "id": "question_0020",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale percentuale degli italiani avrà un secondo lavoro entro il 2030?",
+    "info": "La gig economy e il lavoro freelance sono in crescita.\nAttualmente circa il 5% degli italiani ha ufficialmente un secondo impiego.",
+
+    "minValueText": "0%",
+    "maxValueText": "40%",
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0021",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Hai del tempo libero questa sera. Come lo impieghi?",
+    "info": "Scegli come investire la tua serata",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Seguo un corso online di finanza personale",
+
+        "followerReward": 10,
+        "moneyReward": 50,
+        "partyReward": -10,
+
+        "successProbability": 0.75,
+        "successText": "Hai acquisito competenze finanziarie che ti saranno utili per tutta la vita!",
+        "failureText": "Il corso era interessante ma non ha cambiato molto le tue abitudini."
+      },
+      {
+        "index": 1,
+        "text": "Organizzo una cena con amici per discutere di attualità",
+
+        "followerReward": 40,
+        "moneyReward": -30,
+        "partyReward": 25,
+
+        "successProbability": 0.85,
+        "successText": "È stata una serata meravigliosa, avete creato legami più forti!",
+        "failureText": "La conversazione non è andata come speravi, ma è stata comunque piacevole."
+      },
+      {
+        "index": 2,
+        "text": "Leggo un libro di crescita personale",
+
+        "followerReward": 5,
+        "moneyReward": 0,
+        "partyReward": 5,
+
+        "successProbability": 0.7,
+        "successText": "Il libro ti ha ispirato e hai iniziato a mettere in pratica i suoi insegnamenti!",
+        "failureText": "Il libro era interessante ma non hai applicato davvero i concetti."
+      }
+    ],
+
+    "insightReward": 8
+  },
+  {
+    "id": "question_0022",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "È domenica mattina, cosa fai?",
+    "info": "Scegli come iniziare la tua domenica",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Vado al mercato rionale per sostenere i produttori locali",
+
+        "followerReward": 30,
+        "moneyReward": -25,
+        "partyReward": 15,
+
+        "successProbability": 0.8,
+        "successText": "Hai contribuito all'economia locale e hai scoperto prodotti straordinari!",
+        "failureText": "È stata una giornata stancante, ma hai comunque sostenuto la comunità."
+      },
+      {
+        "index": 1,
+        "text": "Partecipo a una pulizia del parco organizzata dal quartiere",
+
+        "followerReward": 60,
+        "moneyReward": 0,
+        "partyReward": 20,
+
+        "successProbability": 0.9,
+        "successText": "Il parco è splendido grazie al vostro lavoro di squadra!",
+        "failureText": "Non è stata una grande partecipazione, ma ogni contributo conta."
+      },
+      {
+        "index": 2,
+        "text": "Dormo fino a tardi e mi godo la calma",
+
+        "followerReward": -5,
+        "moneyReward": 0,
+        "partyReward": -5,
+
+        "successProbability": 0.95,
+        "successText": "Ti sei riposato perfettamente, ti senti rinato!",
+        "failureText": "Ti sei sentito pigro tutto il giorno, avevi bisogno di più movimento."
+      }
+    ],
+
+    "insightReward": 5
+  },
+  {
+    "id": "question_0023",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Hai accumulato delle ferie. Come le utilizzi?",
+    "info": "Scegli come goderti il meritato riposo",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Faccio un viaggio di volontariato all'estero",
+
+        "followerReward": 80,
+        "moneyReward": -100,
+        "partyReward": 30,
+
+        "successProbability": 0.85,
+        "successText": "Hai fatto una vera differenza nella vita di altre persone, è stata un'esperienza trasformativa!",
+        "failureText": "È stato più difficile del previsto, ma hai imparato lezioni importanti."
+      },
+      {
+        "index": 1,
+        "text": "Seguo un bootcamp intensivo per imparare nuove competenze",
+
+        "followerReward": 15,
+        "moneyReward": 40,
+        "partyReward": -15,
+
+        "successProbability": 0.7,
+        "successText": "Hai acquisito competenze che ti apriranno nuove opportunità di carriera!",
+        "failureText": "Il bootcamp è stato stressante, ma hai completato il programma con successo."
+      },
+      {
+        "index": 2,
+        "text": "Viaggio zaino in spalla scoprendo nuove culture",
+
+        "followerReward": 35,
+        "moneyReward": -60,
+        "partyReward": 40,
+
+        "successProbability": 0.88,
+        "successText": "Hai vissuto avventure straordinarie e amplificato la tua visione del mondo!",
+        "failureText": "Il viaggio ha avuto dei problemi logistici, ma è stato comunque emozionante."
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0024",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Un amico ti propone di partecipare a un'attività nel weekend. Cosa scegli?",
+    "info": "Scegli l'attività che preferisci",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Partecipare a un workshop di educazione finanziaria gratuito",
+
+        "followerReward": 20,
+        "moneyReward": 30,
+        "partyReward": 0,
+
+        "successProbability": 0.75,
+        "successText": "Hai imparato strategie finanziarie che cambieranno il tuo futuro!",
+        "failureText": "Il workshop era meno pratico di quanto speravi, ma hai qualche idea comunque."
+      },
+      {
+        "index": 1,
+        "text": "Andare a una manifestazione per una causa che ti sta a cuore",
+
+        "followerReward": 70,
+        "moneyReward": -10,
+        "partyReward": 35,
+
+        "successProbability": 0.8,
+        "successText": "La tua voce insieme a migliaia di altre ha portato consapevolezza!",
+        "failureText": "La manifestazione non ha avuto l'impatto sperato, ma il messaggio è arrivato."
+      },
+      {
+        "index": 2,
+        "text": "Fare una gita in montagna per staccare dalla routine",
+
+        "followerReward": 15,
+        "moneyReward": -20,
+        "partyReward": 20,
+
+        "successProbability": 0.92,
+        "successText": "La natura ti ha rigenerato completamente, tornate a casa rinati!",
+        "failureText": "Le condizioni meteo non erano ideali, ma è stata comunque una bella escursione."
+      }
+    ],
+
+    "insightReward": 6
+  },
+  {
+    "id": "question_0025",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Hai un'ora libera durante la pausa pranzo. Come la sfrutti?",
+    "info": "Scegli come impiegare questo momento",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Ascolto un podcast su economia e società",
+
+        "followerReward": 10,
+        "moneyReward": 15,
+        "partyReward": 0,
+
+        "successProbability": 0.75,
+        "successText": "Hai scoperto prospettive nuove che arricchiranno le tue conversazioni!",
+        "failureText": "Il podcast era interessante, ma non ha cambiato particolarmente il tuo punto di vista."
+      },
+      {
+        "index": 1,
+        "text": "Chiacchiero con i colleghi per fare networking",
+
+        "followerReward": 25,
+        "moneyReward": 10,
+        "partyReward": 15,
+
+        "successProbability": 0.7,
+        "successText": "Hai creato connessioni che potrebbero portare a opportunità future!",
+        "failureText": "La conversazione è stata piacevole ma senza particolari risultati."
+      },
+      {
+        "index": 2,
+        "text": "Faccio una passeggiata per schiarirmi le idee",
+
+        "followerReward": 5,
+        "moneyReward": 0,
+        "partyReward": 10,
+
+        "successProbability": 0.85,
+        "successText": "La camminata ha chiarito le tue idee, torni al lavoro più focus!",
+        "failureText": "La passeggiata è stata gradevole, ma i problemi restano irrisolti."
+      }
+    ],
+
+    "insightReward": 4
+  },
+  {
+    "id": "question_0026",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Ricevi un piccolo bonus inaspettato. Come lo utilizzi?",
+    "info": "Scegli come gestire questa entrata extra",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Lo investo in un fondo etico e sostenibile",
+
+        "followerReward": 30,
+        "moneyReward": 60,
+        "partyReward": 0,
+
+        "successProbability": 0.72,
+        "successText": "Il tuo investimento sta generando ritorno e impatto positivo!",
+        "failureText": "Il fondo ha avuto risultati modesti, ma almeno hai scelto consapevolmente."
+      },
+      {
+        "index": 1,
+        "text": "Lo dono a un'associazione benefica",
+
+        "followerReward": 70,
+        "moneyReward": -50,
+        "partyReward": 20,
+
+        "successProbability": 0.95,
+        "successText": "La tua donazione ha aiutato tante persone, sei veramente generoso!",
+        "failureText": "L'associazione non ha utilizzato i fondi come speravi, ma l'intenzione era buona."
+      },
+      {
+        "index": 2,
+        "text": "Mi concedo un'esperienza che desideravo da tempo",
+
+        "followerReward": 10,
+        "moneyReward": -40,
+        "partyReward": 35,
+
+        "successProbability": 0.85,
+        "successText": "L'esperienza è stata incredibile, un ricordo indimenticabile!",
+        "failureText": "L'esperienza non è stata come immaginavi, ma è stata comunque piacevole."
+      }
+    ],
+
+    "insightReward": 8
+  },
+  {
+    "id": "question_0027",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Vuoi migliorare te stesso. Su cosa ti concentri questa settimana?",
+    "info": "Scegli il tuo focus di crescita personale",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Imparo una nuova lingua per ampliare le opportunità lavorative",
+
+        "followerReward": 15,
+        "moneyReward": 25,
+        "partyReward": 5,
+
+        "successProbability": 0.65,
+        "successText": "Stai progredendo velocemente, presto comunicherai fluidamente!",
+        "failureText": "La lingua è più difficile di quanto pensassi, ma non mollare!"
+      },
+      {
+        "index": 1,
+        "text": "Mi dedico alla meditazione e al benessere mentale",
+
+        "followerReward": 10,
+        "moneyReward": 0,
+        "partyReward": 15,
+
+        "successProbability": 0.8,
+        "successText": "La meditazione sta trasformando il tuo equilibrio mentale!",
+        "failureText": "È difficile mantenere la disciplina, ma i momenti di calma sono preziosi."
+      },
+      {
+        "index": 2,
+        "text": "Faccio volontariato in un centro di ascolto",
+
+        "followerReward": 55,
+        "moneyReward": -15,
+        "partyReward": 20,
+
+        "successProbability": 0.9,
+        "successText": "Le persone che hai aiutato sono grate, stai facendo una vera differenza!",
+        "failureText": "Il volontariato è impegnativo, ma sai che stai aiutando chi ne ha bisogno."
+      }
+    ],
+
+    "insightReward": 7
+  },
+  {
+    "id": "question_0028",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "È il tuo compleanno. Come festeggi?",
+    "info": "Scegli come celebrare il tuo giorno speciale",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Organizzo una raccolta fondi al posto dei regali",
+
+        "followerReward": 90,
+        "moneyReward": -20,
+        "partyReward": 25,
+
+        "successProbability": 0.88,
+        "successText": "La raccolta è stata un successo, hai aiutato molte persone nel tuo compleanno!",
+        "failureText": "La partecipazione è stata bassa, ma il gesto era nobilissimo."
+      },
+      {
+        "index": 1,
+        "text": "Faccio una grande festa con tutti i miei amici",
+
+        "followerReward": 40,
+        "moneyReward": -80,
+        "partyReward": 50,
+
+        "successProbability": 0.9,
+        "successText": "È stata una festa fantastica, i tuoi amici ti hanno fatto sentire speciale!",
+        "failureText": "La festa non è stata come speravi, ma è stata comunque un momento carino."
+      },
+      {
+        "index": 2,
+        "text": "Passo una giornata tranquilla riflettendo sui miei obiettivi",
+
+        "followerReward": 5,
+        "moneyReward": 0,
+        "partyReward": 5,
+
+        "successProbability": 0.78,
+        "successText": "La riflessione ti ha aiutato a definire chiaramente i tuoi obiettivi futuri!",
+        "failureText": "È stato difficile concentrarsi, ma qualche idea nuova è emersa."
+      }
+    ],
+
+    "insightReward": 5
+  },
+  {
+    "id": "question_0029",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Scopri che il tuo datore di lavoro evade le tasse. Cosa fai?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Non faccio nulla, non voglio rischiare il mio posto di lavoro",
+
+        "followerReward": -20,
+        "moneyReward": 30,
+        "partyReward": -30,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.3,
+        "successText": "Hai mantenuto il tuo posto, ma il peso della consapevolezza rimane.",
+        "failureText": "Sei stato comunque scoperto, il silenzio non ti ha aiutato."
+      },
+      {
+        "index": 1,
+        "text": "Faccio una segnalazione anonima alle autorità competenti",
+
+        "followerReward": 60,
+        "moneyReward": -20,
+        "partyReward": 20,
+
+        "insightRequirement": 30,
+
+        "successProbability": 0.65,
+        "successText": "Le autorità hanno avviato un'indagine, la tua segnalazione anonima ha funzionato!",
+        "failureText": "L'indagine è stata archiviata velocemente, ma almeno hai provato."
+      },
+      {
+        "index": 2,
+        "text": "Ne parlo direttamente con il datore di lavoro esprimendo le mie preoccupazioni",
+
+        "followerReward": 30,
+        "moneyReward": 0,
+        "partyReward": 10,
+
+        "insightRequirement": 50,
+
+        "successProbability": 0.55,
+        "successText": "Il datore ha apprezzato il tuo approccio diretto, potrebbero esserci cambiamenti!",
+        "failureText": "Il datore ha minimizzato le tue preoccupazioni, rimane tutto com'era."
+      },
+      {
+        "index": 3,
+        "text": "Cerco un nuovo lavoro e poi decido se denunciare",
+
+        "followerReward": 40,
+        "moneyReward": 10,
+        "partyReward": 15,
+
+        "insightRequirement": 20,
+
+        "successProbability": 0.7,
+        "successText": "Hai trovato una nuova opportunità e adesso puoi agire consapevolmente!",
+        "failureText": "La ricerca di un nuovo lavoro è stata lunga, ma stai per cambiare comunque."
+      }
+    ],
+
+    "insightReward": 25
+  },
+  {
+    "id": "question_0030",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Un grande centro commerciale vuole aprire nel tuo quartiere, distruggendo un parco pubblico. Come reagisci?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Supporto il progetto, porterà posti di lavoro e servizi",
+
+        "followerReward": -30,
+        "moneyReward": 50,
+        "partyReward": -20,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.5,
+        "successText": "Il centro commerciale è stato costruito, i posti di lavoro ci sono ma il parco è sparito.",
+        "failureText": "Il progetto è fallito, il parco rimane ma senza sviluppo economico."
+      },
+      {
+        "index": 1,
+        "text": "Mi unisco al comitato cittadino per bloccare il progetto",
+
+        "followerReward": 80,
+        "moneyReward": -30,
+        "partyReward": 40,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.6,
+        "successText": "Il parco è salvo, la comunità ha vinto questa battaglia!",
+        "failureText": "Il parco non è stato salvato, ma il vostro sforzo ha modificato il progetto."
+      },
+      {
+        "index": 2,
+        "text": "Propongo una soluzione alternativa che preservi parte del parco",
+
+        "followerReward": 100,
+        "moneyReward": 0,
+        "partyReward": 30,
+
+        "insightRequirement": 80,
+
+        "successProbability": 0.75,
+        "successText": "La tua proposta è stata accettata, il compromesso ha soddisfatto tutti!",
+        "failureText": "La tua proposta è stata rifiutata, il progetto è continuato come programmato."
+      },
+      {
+        "index": 3,
+        "text": "Organizzo una petizione online per sensibilizzare la comunità",
+
+        "followerReward": 60,
+        "moneyReward": -10,
+        "partyReward": 25,
+
+        "insightRequirement": 20,
+
+        "successProbability": 0.65,
+        "successText": "La petizione ha ricevuto migliaia di firme, il tuo messaggio è viral!",
+        "failureText": "La petizione non ha raggiunto il numero di firme sperato, ma hai tentato."
+      }
+    ],
+
+    "insightReward": 18
+  },
+  {
+    "id": "question_0031",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Ti viene offerta la possibilità di investire in criptovalute con rendimenti promessi molto alti. Cosa fai?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Investo subito una somma significativa per non perdere l'opportunità",
+
+        "followerReward": -10,
+        "moneyReward": -80,
+        "partyReward": -10,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.1,
+        "successText": "Incredibilmente, l'investimento è andato bene, ma è pura fortuna.",
+        "failureText": "È stata una truffa, hai perso tutti i soldi, ma almeno hai imparato."
+      },
+      {
+        "index": 1,
+        "text": "Rifiuto, sembra troppo bello per essere vero",
+
+        "followerReward": 20,
+        "moneyReward": 20,
+        "partyReward": 10,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.95,
+        "successText": "Bene, era davvero una truffa! La tua cautela ti ha protetto.",
+        "failureText": "Era un'opportunità reale, l'occasione è sfuggita per tua prudenza eccessiva."
+      },
+      {
+        "index": 2,
+        "text": "Faccio ricerche approfondite prima di decidere",
+
+        "followerReward": 30,
+        "moneyReward": 40,
+        "partyReward": 5,
+
+        "insightRequirement": 40,
+
+        "successProbability": 0.85,
+        "successText": "Grazie alle tue ricerche hai scoperto che era una truffa, hai evitato il disastro!",
+        "failureText": "Le tue ricerche hanno concluso che era legittimo, ma poi è stata una truffa comunque."
+      },
+      {
+        "index": 3,
+        "text": "Segnalo l'offerta come potenziale truffa alle autorità",
+
+        "followerReward": 70,
+        "moneyReward": 10,
+        "partyReward": 25,
+
+        "insightRequirement": 60,
+
+        "successProbability": 0.8,
+        "successText": "La tua segnalazione ha aiutato le autorità a smantellare la truffa!",
+        "failureText": "Era un'operazione legittima che hai segnalato per sbaglio, ma l'intenzione era buona."
+      }
+    ],
+
+    "insightReward": 22
+  },
+  {
+    "id": "question_0032",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Una multinazionale propone di sponsorizzare un evento culturale della tua città, ma ha una reputazione controversa. Cosa pensi?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Ben venga, i soldi non hanno odore e l'evento ne beneficerà",
+
+        "followerReward": -20,
+        "moneyReward": 60,
+        "partyReward": -15,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.4,
+        "successText": "L'evento è stato fantastico, ma il coinvolgimento della multinazionale è diventato controverso.",
+        "failureText": "C'è stata una protesta pubblica contro lo sponsoraggio, l'evento è stato rovinato."
+      },
+      {
+        "index": 1,
+        "text": "Mi oppongo fermamente, non si dovrebbe accettare",
+
+        "followerReward": 50,
+        "moneyReward": -40,
+        "partyReward": 30,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.7,
+        "successText": "L'evento si è svolto con altri sponsor, hai mantenuto i principi etici!",
+        "failureText": "L'evento è stato cancellato per mancanza di fondi, la protesta era esagerata."
+      },
+      {
+        "index": 2,
+        "text": "Propongo di accettare solo con condizioni di trasparenza",
+
+        "followerReward": 70,
+        "moneyReward": 20,
+        "partyReward": 20,
+
+        "insightRequirement": 70,
+
+        "successProbability": 0.75,
+        "successText": "La multinazionale ha accettato le condizioni, l'evento è stato sia bellissimo che etico!",
+        "failureText": "La multinazionale ha rifiutato le condizioni, l'evento è saltato."
+      },
+      {
+        "index": 3,
+        "text": "Cerco sponsor alternativi più etici",
+
+        "followerReward": 90,
+        "moneyReward": -20,
+        "partyReward": 35,
+
+        "insightRequirement": 50,
+
+        "successProbability": 0.8,
+        "successText": "Hai trovato sponsor etici che supportano i tuoi valori, l'evento è un successo morale!",
+        "failureText": "Gli sponsor etici offrivano meno fondi, l'evento è stato più modesto ma consapevole."
+      }
+    ],
+
+    "insightReward": 20
+  },
+  {
+    "id": "question_0033",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Il tuo comune vuole introdurre una tassa sui rifiuti proporzionale al consumo. Come ti poni?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Sono contrario, è l'ennesima tassa che colpisce i cittadini",
+
+        "followerReward": 20,
+        "moneyReward": 30,
+        "partyReward": -10,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.3,
+        "successText": "La tassa è stata introdotta ugualmente, i cittadini ora protestano.",
+        "failureText": "La tassa è stata ritirata, la tua protesta ha fatto la differenza."
+      },
+      {
+        "index": 1,
+        "text": "Sono favorevole, incentiva comportamenti virtuosi",
+
+        "followerReward": 40,
+        "moneyReward": -20,
+        "partyReward": 20,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.65,
+        "successText": "La tassa è stata introdotta e i rifiuti sono diminuiti significativamente!",
+        "failureText": "La tassa è stata introdotta ma i comportamenti non sono cambiati molto."
+      },
+      {
+        "index": 2,
+        "text": "Propongo modifiche per proteggere le famiglie a basso reddito",
+
+        "followerReward": 80,
+        "moneyReward": 0,
+        "partyReward": 30,
+
+        "insightRequirement": 60,
+
+        "successProbability": 0.78,
+        "successText": "La tassa è stata implementata con protezioni sociali, è una vittoria per l'equità!",
+        "failureText": "Le protezioni non sono state sufficienti, ma la tua voce è stata ascoltata."
+      },
+      {
+        "index": 3,
+        "text": "Chiedo più informazioni su come verranno usati i fondi raccolti",
+
+        "followerReward": 50,
+        "moneyReward": 10,
+        "partyReward": 15,
+
+        "insightRequirement": 30,
+
+        "successProbability": 0.6,
+        "successText": "Il comune ha pubblicato i dettagli, i fondi verranno usati per progetti ambientali!",
+        "failureText": "Il comune non ha fornito dettagli chiari, rimangono dubbi sulla destinazione."
+      }
+    ],
+
+    "insightReward": 15
+  },
+  {
+    "id": "question_0034",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Vieni a sapere che un tuo amico diffonde fake news sui social media. Cosa fai?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Non faccio nulla, ognuno è libero di pensarla come vuole",
+
+        "followerReward": -30,
+        "moneyReward": 0,
+        "partyReward": -20,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.2,
+        "successText": "L'amico continua a diffondere fake news, ma non sei responsabile.",
+        "failureText": "Altre persone sono state ingannate dalle fake news, rimane il senso di colpa."
+      },
+      {
+        "index": 1,
+        "text": "Lo blocco e smetto di frequentarlo",
+
+        "followerReward": 10,
+        "moneyReward": 0,
+        "partyReward": -10,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.5,
+        "successText": "Vi siete separati, ma l'amicizia è comunque perduta.",
+        "failureText": "L'amico ha fatto leva su amici comuni, il conflitto è cresciuto."
+      },
+      {
+        "index": 2,
+        "text": "Gli parlo privatamente, condividendo fonti affidabili",
+
+        "followerReward": 60,
+        "moneyReward": 0,
+        "partyReward": 25,
+
+        "insightRequirement": 40,
+
+        "successProbability": 0.55,
+        "successText": "L'amico ha aperto la mente, non diffonde più fake news!",
+        "failureText": "L'amico è rimasto convinto, ma l'hai tentato in modo costruttivo."
+      },
+      {
+        "index": 3,
+        "text": "Commento pubblicamente i suoi post con fact-checking",
+
+        "followerReward": 80,
+        "moneyReward": -10,
+        "partyReward": 15,
+
+        "insightRequirement": 30,
+
+        "successProbability": 0.7,
+        "successText": "I tuoi commenti hanno informato altri utenti, hai arginato la fake news!",
+        "failureText": "L'amico si è sentito attaccato pubblicamente, la situazione è peggiorata."
+      }
+    ],
+
+    "insightReward": 18
+  },
+  {
+    "id": "question_0035",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "La tua azienda propone smart working illimitato ma con una riduzione del 10% dello stipendio. Accetti?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Accetto subito, la libertà vale più di quei soldi",
+
+        "followerReward": 20,
+        "moneyReward": -50,
+        "partyReward": 30,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.75,
+        "successText": "Lo smart working ti ha rivoluzionato la vita, la riduzione di stipendio è stata un buon compromesso!",
+        "failureText": "La riduzione di stipendio ha pesato più della libertà guadagnata."
+      },
+      {
+        "index": 1,
+        "text": "Rifiuto, il mio lavoro vale il compenso pieno",
+
+        "followerReward": 30,
+        "moneyReward": 40,
+        "partyReward": -10,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.4,
+        "successText": "L'azienda ha mantenuto le tue condizioni, apprezzava il tuo talento.",
+        "failureText": "L'azienda ha offerto lo smart working a tutti gli altri, tu rimani in ufficio."
+      },
+      {
+        "index": 2,
+        "text": "Negozio per mantenere lo stipendio con obiettivi di performance",
+
+        "followerReward": 50,
+        "moneyReward": 30,
+        "partyReward": 20,
+
+        "insightRequirement": 70,
+
+        "successProbability": 0.72,
+        "successText": "La negoziazione ha funzionato, hai sia lo smart working che lo stipendio pieno!",
+        "failureText": "Gli obiettivi di performance sono irrealistici, è stato un cattivo affare."
+      },
+      {
+        "index": 3,
+        "text": "Propongo una soluzione ibrida con riduzione minore",
+
+        "followerReward": 40,
+        "moneyReward": 10,
+        "partyReward": 15,
+
+        "insightRequirement": 40,
+
+        "successProbability": 0.68,
+        "successText": "L'azienda ha accettato la tua controproposta, è un buon compromesso!",
+        "failureText": "L'azienda ha rifiutato, sei rimasto con l'offerta originale di riduzione del 10%."
+      }
+    ],
+
+    "insightReward": 16
+  },
+  {
+    "id": "question_0036",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Un influencer che segui promuove un prodotto finanziario sospetto. Cosa fai?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Mi fido e acquisto il prodotto",
+
+        "followerReward": -40,
+        "moneyReward": -70,
+        "partyReward": -20,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.15,
+        "successText": "Per miracolo, il prodotto è legittimo e funziona davvero!",
+        "failureText": "Era una truffa, hai perso i tuoi soldi per un prodotto finto."
+      },
+      {
+        "index": 1,
+        "text": "Smetto di seguirlo senza fare nulla",
+
+        "followerReward": 10,
+        "moneyReward": 10,
+        "partyReward": 0,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.5,
+        "successText": "L'influencer ha continuato a promuovere truffe, ma non sei responsabile.",
+        "failureText": "L'influencer ha smesso di pubblicare contenuti sospetti, il tuo abbandono è stato inutile."
+      },
+      {
+        "index": 2,
+        "text": "Segnalo il contenuto alla piattaforma",
+
+        "followerReward": 50,
+        "moneyReward": 0,
+        "partyReward": 20,
+
+        "insightRequirement": 25,
+
+        "successProbability": 0.7,
+        "successText": "La piattaforma ha rimosso il contenuto, hai protetto gli altri utenti!",
+        "failureText": "La piattaforma non ha preso provvedimenti, il contenuto rimane online."
+      },
+      {
+        "index": 3,
+        "text": "Creo un post informativo per avvertire altri follower",
+
+        "followerReward": 100,
+        "moneyReward": -5,
+        "partyReward": 35,
+
+        "insightRequirement": 50,
+
+        "successProbability": 0.85,
+        "successText": "Il tuo post informativo è diventato virale, hai salvato molte persone da una truffa!",
+        "failureText": "Il post è stato poco visto, ma chi lo ha visto ti ringrazia."
+      }
+    ],
+
+    "insightReward": 20
+  },
+  {
+    "id": "question_0037",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Ti rendi conto che un negozio del quartiere usa manodopera irregolare. Come ti comporti?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Continuo a fare acquisti lì, non sono affari miei",
+
+        "followerReward": -30,
+        "moneyReward": 20,
+        "partyReward": -25,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.2,
+        "successText": "Continui a comprare lì, ma la consapevolezza di sostenerlo rimane.",
+        "failureText": "Il negozio è stato chiuso dagli ispettori, sei sollevato ma con rimorsi."
+      },
+      {
+        "index": 1,
+        "text": "Smetto di comprare lì e basta",
+
+        "followerReward": 20,
+        "moneyReward": -10,
+        "partyReward": 5,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.45,
+        "successText": "Così protestando in modo silenzioso, altri hanno seguito il tuo esempio.",
+        "failureText": "La tua assenza non ha fatto alcuna differenza, il negozio prosegue normalmente."
+      },
+      {
+        "index": 2,
+        "text": "Segnalo la situazione agli ispettori del lavoro",
+
+        "followerReward": 70,
+        "moneyReward": -15,
+        "partyReward": 30,
+
+        "insightRequirement": 40,
+
+        "successProbability": 0.8,
+        "successText": "Gli ispettori hanno trovato violazioni, il negozio è stato costretto a regolarizzare!",
+        "failureText": "L'ispezione non ha trovato prove, il negozio continua come prima."
+      },
+      {
+        "index": 3,
+        "text": "Parlo con il proprietario per capire la situazione prima di agire",
+
+        "followerReward": 45,
+        "moneyReward": 0,
+        "partyReward": 20,
+
+        "insightRequirement": 60,
+
+        "successProbability": 0.65,
+        "successText": "Il proprietario ha spiegato e si è impegnato a regolarizzare i lavoratori!",
+        "failureText": "Il proprietario ha minimizzato, il dialogo non ha portato cambiamenti."
+      }
+    ],
+
+    "insightReward": 22
+  },
+  {
+    "id": "question_0038",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Il governo propone un reddito di base universale finanziato con nuove tasse. Qual è la tua posizione?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Sono contrario, deresponsabilizza i cittadini",
+
+        "followerReward": 20,
+        "moneyReward": 30,
+        "partyReward": -15,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.35,
+        "successText": "Il reddito di base non è stato approvato, la tua posizione era corretta.",
+        "failureText": "È stato approvato comunque e i risultati sono stati positivi, avevi torto."
+      },
+      {
+        "index": 1,
+        "text": "Sono favorevole, garantisce dignità a tutti",
+
+        "followerReward": 50,
+        "moneyReward": -30,
+        "partyReward": 25,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.62,
+        "successText": "Il reddito di base è stato approvato, le persone stanno meglio e la tua visione è realizzata!",
+        "failureText": "Non è stato approvato, ma le tue intenzioni erano nobili."
+      },
+      {
+        "index": 2,
+        "text": "Dipende da come viene implementato, serve più dibattito",
+
+        "followerReward": 60,
+        "moneyReward": 10,
+        "partyReward": 20,
+
+        "insightRequirement": 50,
+
+        "successProbability": 0.7,
+        "successText": "Grazie al dibattito pubblico, il governo ha adottato un approccio equilibrato!",
+        "failureText": "Il dibattito è stato insufficiente, la legge è stata approvata male."
+      },
+      {
+        "index": 3,
+        "text": "Propongo alternative come il reddito minimo garantito condizionato",
+
+        "followerReward": 80,
+        "moneyReward": 0,
+        "partyReward": 30,
+
+        "insightRequirement": 80,
+
+        "successProbability": 0.68,
+        "successText": "La tua proposta è stata accettata, è una soluzione intelligente e pragmatica!",
+        "failureText": "La tua proposta è stata ignorata, ma hai dimostrato saggezza nel tentativo."
+      }
+    ],
+
+    "insightReward": 25
+  },
+  {
+    "id": "question_0039",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Secondo stime recenti, quale settore economico è più direttamente minacciato dal cambiamento climatico a livello globale?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Tecnologia e software"
+      },
+      {
+        "index": 1,
+        "text": "Agricoltura e produzione alimentare",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Finanza e assicurazioni"
+      },
+      {
+        "index": 3,
+        "text": "Telecomunicazioni"
+      }
+    ],
+
+    "insightReward": 12
+  },
+  {
+    "id": "question_0040",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Quale articolo della Costituzione italiana sancisce il diritto dei lavoratori allo sciopero?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Articolo 1"
+      },
+      {
+        "index": 1,
+        "text": "Articolo 18"
+      },
+      {
+        "index": 2,
+        "text": "Articolo 40",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Articolo 50"
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0041",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale sarà l'età media di pensionamento in Italia nel 2040?",
+    "info": "Attualmente l'età pensionabile in Italia è di circa 67 anni.\nConsidera l'invecchiamento della popolazione e la sostenibilità del sistema previdenziale.",
+
+    "minValueText": "60 anni",
+    "maxValueText": "75 anni",
+
+    "insightReward": 15
+  },
+  {
+    "id": "question_0042",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale percentuale di automobili vendute in Europa sarà elettrica nel 2030?",
+    "info": "Attualmente circa il 15% delle nuove immatricolazioni in Europa sono veicoli elettrici.\nL'UE ha fissato obiettivi ambiziosi per la transizione ecologica.",
+
+    "minValueText": "0%",
+    "maxValueText": "100%",
+
+    "insightReward": 14
+  },
+  {
+    "id": "question_0043",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Una startup ti propone di lavorare gratis per 6 mesi in cambio di quote societarie. Cosa decidi?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Accetto entusiasta, potrebbe essere l'occasione della vita",
+
+        "followerReward": 20,
+        "moneyReward": -60,
+        "partyReward": 10,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.4,
+        "successText": "La startup ha avuto successo, le tue quote valgono milioni!",
+        "failureText": "La startup è fallita dopo 6 mesi, hai perso il tuo tempo e soldi per vivere."
+      },
+      {
+        "index": 1,
+        "text": "Rifiuto, il mio tempo ha un valore",
+
+        "followerReward": 30,
+        "moneyReward": 30,
+        "partyReward": 5,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.95,
+        "successText": "Hai fatto la scelta giusta, la startup è fallita poche settimane dopo.",
+        "failureText": "La startup è diventata unicorno, avresti potuto essere ricco."
+      },
+      {
+        "index": 2,
+        "text": "Chiedo una valutazione indipendente della startup prima di decidere",
+
+        "followerReward": 50,
+        "moneyReward": 20,
+        "partyReward": 15,
+
+        "insightRequirement": 60,
+
+        "successProbability": 0.7,
+        "successText": "La valutazione ti ha mostrato il reale potenziale, hai preso una decisione consapevole!",
+        "failureText": "La valutazione era imprecisa, la realtà è stata diversa da quanto previsto."
+      },
+      {
+        "index": 3,
+        "text": "Propongo un compenso ridotto più quote, per bilanciare il rischio",
+
+        "followerReward": 60,
+        "moneyReward": 10,
+        "partyReward": 20,
+
+        "insightRequirement": 45,
+
+        "successProbability": 0.65,
+        "successText": "La startup ha accettato la tua negoziazione, sei stato davvero intelligente!",
+        "failureText": "La startup ha rifiutato e ha assunto qualcun altro, ma almeno hai protetto i tuoi interessi."
+      }
+    ],
+
+    "insightReward": 18
+  },
+  {
+    "id": "question_0044",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "Vieni eletto rappresentante di classe/di reparto. Qual è la tua priorità?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Migliorare le condizioni materiali (spazi, attrezzature)",
+
+        "followerReward": 40,
+        "moneyReward": 20,
+        "partyReward": 10,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.7,
+        "successText": "La direzione ha ascoltato le tue richieste, gli spazi sono migliorati!",
+        "failureText": "La direzione ha rimandato, le condizioni rimangono precarie."
+      },
+      {
+        "index": 1,
+        "text": "Organizzare eventi sociali per rafforzare il gruppo",
+
+        "followerReward": 60,
+        "moneyReward": -20,
+        "partyReward": 40,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.85,
+        "successText": "Gli eventi sono stati fantastico, il gruppo è più coeso che mai!",
+        "failureText": "Gli eventi hanno avuto poca partecipazione, ma hai comunque tentato."
+      },
+      {
+        "index": 2,
+        "text": "Creare canali di comunicazione trasparenti con la direzione",
+
+        "followerReward": 70,
+        "moneyReward": 10,
+        "partyReward": 25,
+
+        "insightRequirement": 50,
+
+        "successProbability": 0.75,
+        "successText": "I canali di comunicazione funzionano, la trasparenza ha ridotto i conflitti!",
+        "failureText": "La direzione non utilizza i canali, la comunicazione rimane complicata."
+      },
+      {
+        "index": 3,
+        "text": "Fare un sondaggio per capire le vere priorità del gruppo",
+
+        "followerReward": 80,
+        "moneyReward": 0,
+        "partyReward": 30,
+
+        "insightRequirement": 30,
+
+        "successProbability": 0.88,
+        "successText": "Il sondaggio ha rivelato le vere esigenze del gruppo, puoi agire consapevolmente!",
+        "failureText": "Il sondaggio ha rivelato preferenze contrastanti, è difficile accontentare tutti."
+      }
+    ],
+
+    "insightReward": 15
+  },
+  {
+    "id": "question_0045",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Hai la possibilità di seguire un corso gratuito. Quale scegli?",
+    "info": "Scegli il percorso formativo che preferisci",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Corso di educazione civica e diritti costituzionali",
+
+        "followerReward": 40,
+        "moneyReward": 10,
+        "partyReward": 15,
+
+        "successProbability": 0.8,
+        "successText": "Conosci meglio i tuoi diritti e sei più consapevole come cittadino!",
+        "failureText": "Il corso era interessante, ma non hai cambiato particolarmente le tue abitudini civiche."
+      },
+      {
+        "index": 1,
+        "text": "Corso di gestione del budget personale",
+
+        "followerReward": 10,
+        "moneyReward": 50,
+        "partyReward": 0,
+
+        "successProbability": 0.75,
+        "successText": "Il corso ti ha trasformato in un esperto di budget, stai risparmiando molto!",
+        "failureText": "Il corso era teorico, applicarlo nella pratica è più complicato."
+      },
+      {
+        "index": 2,
+        "text": "Corso di comunicazione efficace e public speaking",
+
+        "followerReward": 30,
+        "moneyReward": 25,
+        "partyReward": 20,
+
+        "successProbability": 0.82,
+        "successText": "La tua comunicazione è migliorata notevolmente, sei più persuasivo!",
+        "failureText": "Il corso ha aiutato, ma parlare in pubblico rimane una sfida."
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0046",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Quale minerale, spesso estratto in condizioni di sfruttamento nella Repubblica Democratica del Congo, è essenziale per le batterie degli smartphone?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Litio"
+      },
+      {
+        "index": 1,
+        "text": "Cobalto",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Silicio"
+      },
+      {
+        "index": 3,
+        "text": "Rame"
+      }
+    ],
+
+    "insightReward": 10
+  },
+  {
+    "id": "question_0047",
+    "type": "awareness",
+    "isTutorial": false,
+
+    "text": "Come si chiama l'attuale sistema elettorale utilizzato per le elezioni politiche in Italia?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Proporzionale puro"
+      },
+      {
+        "index": 1,
+        "text": "Maggioritario puro"
+      },
+      {
+        "index": 2,
+        "text": "Rosatellum",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Mattarellum"
+      }
+    ],
+
+    "insightReward": 12
+  },
+  {
+    "id": "question_0048",
+    "type": "forecast",
+    "isTutorial": false,
+
+    "text": "Quale percentuale di lavoratori europei avrà competenze di intelligenza artificiale entro il 2030?",
+    "info": "Attualmente si stima che meno del 5% dei lavoratori abbia competenze specifiche in AI.\nLa domanda di queste competenze sta crescendo rapidamente.",
+
+    "minValueText": "0%",
+    "maxValueText": "80%",
+
+    "insightReward": 16
+  },
+  {
+    "id": "question_0049",
+    "type": "freetime",
+    "isTutorial": false,
+
+    "text": "Un conoscente ti chiede aiuto per compilare la dichiarazione dei redditi. Cosa fai?",
+    "info": "Scegli come rispondere alla richiesta",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Lo aiuto volentieri, condividere conoscenze è importante",
+
+        "followerReward": 45,
+        "moneyReward": 0,
+        "partyReward": 15,
+
+        "successProbability": 0.8,
+        "successText": "Il tuo aiuto gli ha fatto risparmiare soldi e lui ti è profondamente grato!",
+        "failureText": "Il tuo aiuto è stato insufficiente, il vostro amico ha comunque dovuto ricorrere a un professionista."
+      },
+      {
+        "index": 1,
+        "text": "Gli suggerisco un commercialista di fiducia",
+
+        "followerReward": 20,
+        "moneyReward": 10,
+        "partyReward": 5,
+
+        "successProbability": 0.75,
+        "successText": "Il commercialista è stato affidabile, il tuo consiglio era perfetto!",
+        "failureText": "Il commercialista non era così bravo, il tuo amico è rimasto deluso."
+      },
+      {
+        "index": 2,
+        "text": "Gli propongo di insegnargli così potrà fare da solo in futuro",
+
+        "followerReward": 60,
+        "moneyReward": 5,
+        "partyReward": 25,
+
+        "successProbability": 0.85,
+        "successText": "Hai insegnato al tuo amico, adesso è autonomo e ti ringrazia ancora oggi!",
+        "failureText": "L'insegnamento è stato troppo complesso, il tuo amico ha comunque dovuto chiedere aiuto."
+      }
+    ],
+
+    "insightReward": 8
+  },
+  {
+    "id": "question_0050",
+    "type": "multiple",
+    "isTutorial": false,
+
+    "text": "La tua banca ti propone di investire in un fondo che include aziende di armi. Cosa rispondi?",
+    "answers": [
+      {
+        "index": 0,
+        "text": "Accetto, l'importante è il rendimento finanziario",
+
+        "followerReward": -40,
+        "moneyReward": 70,
+        "partyReward": -30,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.6,
+        "successText": "Il fondo ha generato ottimi rendimenti, ma le armi hanno fatto male a molti.",
+        "failureText": "Il fondo ha avuto perdite, non valeva neanche il compromesso morale."
+      },
+      {
+        "index": 1,
+        "text": "Rifiuto e chiedo alternative di investimento etico",
+
+        "followerReward": 70,
+        "moneyReward": -10,
+        "partyReward": 30,
+
+        "insightRequirement": 0,
+
+        "successProbability": 0.8,
+        "successText": "La banca ti ha proposto fondi etici con buoni rendimenti, la tua integrità è salva!",
+        "failureText": "I fondi etici hanno avuto rendimenti modesti, ma almeno hai mantenuto i valori."
+      },
+      {
+        "index": 2,
+        "text": "Chiedo dettagli sulla composizione del fondo prima di decidere",
+
+        "followerReward": 40,
+        "moneyReward": 20,
+        "partyReward": 15,
+
+        "insightRequirement": 35,
+
+        "successProbability": 0.65,
+        "successText": "La banca ti ha fornito dettagli completi, puoi decidere consapevolmente!",
+        "failureText": "La banca è stata poco trasparente, rimangono dubbi sulla composizione."
+      },
+      {
+        "index": 3,
+        "text": "Cambio banca e scelgo un istituto di credito etico",
+
+        "followerReward": 100,
+        "moneyReward": -30,
+        "partyReward": 40,
+
+        "insightRequirement": 70,
+
+        "successProbability": 0.85,
+        "successText": "Hai trovato una banca etica che condivide i tuoi valori, il tuo denaro fa davvero la differenza!",
+        "failureText": "La banca etica ha commissioni più alte, ma almeno i tuoi soldi non finanziano le armi."
+      }
+    ],
+
+    "insightReward": 22
+  }
+]
